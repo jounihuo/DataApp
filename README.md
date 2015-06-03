@@ -13,4 +13,7 @@ The running app can be used at: https://jhuopana.shinyapps.io/WaterLevelApp/
 ui.R contains the user interface code for the app. Radio buttons and check boxes are defined for the sidepanel and the conditional plotting for the plot. Theme is retried from the bootstrap file in the www-folder.
 
 # server.R
-server.R provides the calculation based on the user input.
+server.R provides the calculation based on the user input. Base on the user input a conditional structure provides the desired output for the ui.R. Simple linear fit is made for the data and that fit is used to estimate the water level in a given year.
+
+## Note
+This work has been done for the Developing Data Products course at Coursera and should not be consider anyting else than a example exercise.
